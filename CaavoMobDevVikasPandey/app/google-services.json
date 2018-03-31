@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "194907685608",
+    "firebase_url": "https://collaborative-story-writing.firebaseio.com",
+    "project_id": "collaborative-story-writing",
+    "storage_bucket": "collaborative-story-writing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:194907685608:android:15dbf0147d97159a",
+        "android_client_info": {
+          "package_name": "com.vikaspandey.caavomobdevvikaspandey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "194907685608-leh265egjf6nb4f6u8udtpk60mj33c6v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdROGYQp0kTP5K8E1jghfIrFZ4_Ab8thM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

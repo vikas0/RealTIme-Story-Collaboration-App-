@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.vikaspandey.caavomobdevvikaspandey.StoriesActivity"
+    tools:showIn="@layout/activity_stories">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Stories"
+            android:id="@+id/head"
+            android:textSize="@dimen/header_text"/>
+
+       <android.support.v7.widget.RecyclerView
+           android:id="@+id/story_recycle_view"
+           android:layout_marginTop="@dimen/fab_margin"
+           android:layout_below="@id/head"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
